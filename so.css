@@ -28,9 +28,10 @@
 {
     margin-top: 20px;
     margin-bottom: 30px;
-    border-style: ridge;
-    border-width: 3px;
+    border-bottom: 3px outset;
+    border-right: 3px outset;
 }
+
 #pa::first-letter
 {
     font-size: 200%;

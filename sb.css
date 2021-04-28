@@ -1,0 +1,105 @@
+.row-header
+{
+    margin: 10px auto;
+    min-height: 100px;
+}
+.navbar-colour
+{
+    background-color: rgb(90, 146, 104);
+}
+.jumbotron
+{
+    margin: 30px 20px 0px 20px;
+    background-color:  rgb(141, 202, 160);
+}
+
+.hd1
+{
+    color: rgb(57, 80, 57);
+}
+
+.footer
+{
+    background-color: rgb(111, 175, 127);
+    margin: 50px 20px 0px 20px;
+    padding: 20px 0px 20px 0px ;
+}
+.row-content
+{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    border-style: ridge;
+    border-width: 3px;
+}
+#pa::first-letter
+{
+    font-size: 200%;
+    color: rgb(57, 80, 57);
+}
+#pa
+{
+    font-size: 150%;
+    color: white;
+}
+.fa {
+    padding: 10px;
+    font-size: 25px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+.fa-instagram
+{
+    background: crimson;
+    color: white;
+} 
+.fa-youtube
+{
+    background: red;
+    color: white;
+}  
+.pd
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+.font
+{
+    font-size: large;
+}
+.card-ht
+{
+    max-height: 500px;
+}
+.dbg
+{
+    background-color: rgb(141, 202, 160) ;
+}
+.bg-colr
+{
+    background-color:  rgb(141, 202, 160);
+}
+
+@media only screen and (min-width:992px) {
+    .parallax {
+          /* The image used */
+         
+        
+          /* Set a specific height */
+        
+        
+          /* Create the parallax scrolling effect */
+          background-attachment: fixed;
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-blend-mode: screen;
+          background-image: url("BF/breakfast1.jpg");
+          background-color: rgb(152, 192, 129);
+        }
+      }

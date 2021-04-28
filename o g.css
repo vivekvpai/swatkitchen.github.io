@@ -1,0 +1,101 @@
+.navbar-colour {
+    background-color: rgb(90, 146, 104);
+  }
+  
+  #pa::first-letter {
+    font-size: 300%;
+    color: rgb(57, 80, 57);
+  }
+  
+  #pa {
+    color: white;
+    font-size: 150%;
+  }
+  
+  .hd1 {
+    color: rgb(57, 80, 57);
+  }
+  
+  .jumbotron {
+    background-color: rgb(141, 202, 160);
+    margin: 30px 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: mediumseagreen;
+  }
+  
+  #imgResize {
+    height: 300px;
+    width: 350px;
+  }
+  
+  .footer {
+    background-color: rgb(111, 175, 127);
+    margin: 50px 20px 0px 20px;
+    padding: 20px 0px 20px 0px;
+  }
+  
+  .fa {
+    padding: 15px;
+    font-size: 25px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  .fa-facebook {
+    background: #3b5998;
+    color: white;
+  }
+  .fa-instagram {
+    background: crimson;
+    color: white;
+  }
+  .fa-youtube {
+    background: red;
+    color: white;
+  }
+  
+  @media (max-width: 576px) {
+    #imgResize {
+      width: 453px;
+      height: 300px;
+      object-fit: cover;
+    }
+    
+  }
+  
+  @media (max-width: 992px) {
+    #imgResize {
+      width: 500px;
+      height: 300px;
+      object-fit: cover;
+    }
+  }
+  
+  h5 {
+    color: white;
+    font-weight: bold;
+    background: rgb(141, 202, 160);
+    text-align: center;
+  }
+
+  @media only screen and (min-width:992px) {
+    .parallax {
+          /* The image used */
+         
+        
+          /* Set a specific height */
+        
+        
+          /* Create the parallax scrolling effect */
+          background-attachment: fixed;
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-blend-mode: screen;
+          background-image: url("STARTER/snack\ and\ drink.jpg");
+          background-color: rgb(152, 192, 129);
+        }
+      }

@@ -55,7 +55,18 @@
   box-shadow: 6px 6px 10px rgba(111, 175, 127, 5.0);
 }
 
-@media(min-width:415px) 
+.carousel img
+{
+  width: 350px;
+  height: 250px;
+}
+
+.pd
+{
+  padding: 5px 0px 5px 0px;
+}
+
+@media(min-width:575px) 
 {
   .box:hover .btnup  a{
     position: absolute;
@@ -69,22 +80,45 @@
     transform:translateX(-10px);
     opacity: 0;
   }
+
 }
-.carousel img
+
+@media(min-width:768px) 
 {
-  width: 350px;
-  height: 250px;
+  .box:hover .btnup  a{
+    position: absolute;
+    transform:translateX(500px);
+    opacity: 1;
+  }
+
+  .btnup a{
+    position: absolute;
+    transition:0.4s;
+    transform:translateX(-10px);
+    opacity: 0;
+  }
+  .box-content
+  {
+    max-width: 500px;
+    max-height: 500px;
+  }
 }
 
-.pd
+@media(min-width:992px) 
 {
-  padding: 5px 0px 5px 0px;
+  .box:hover .btnup  a{
+    position: absolute;
+    transform:translateX(350px);
+    opacity: 1;
+  }
+
+  .btnup a{
+    position: absolute;
+    transition:0.4s;
+    transform:translateX(-10px);
+    opacity: 0;
+  }
 }
-
-
-
-
-
 
 
 

@@ -108,7 +108,7 @@
 {
   .box:hover .btnup  a{
     position: absolute;
-    transform:translateX(350px);
+    transform:translateX(400px);
     opacity: 1;
   }
 

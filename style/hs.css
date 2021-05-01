@@ -2,6 +2,16 @@
   .navbar-colour {
     background-color: whitesmoke;
   }
+  .background {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    z-index: -1;
+    opacity: 0.1;
+    height: 80%;
+    width: 120%;
+  }
+
 }
 
 .navbar-brand
@@ -26,8 +36,8 @@
   top: 0px;
   right: 0px;
   z-index: -1;
-  opacity: 0.6;
-  height: 100%;
+  opacity: 0.5;
+  max-height: 100%;
 }
 
 .content p
@@ -102,6 +112,14 @@
     max-width: 500px;
     max-height: 500px;
   }
+  .background {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    z-index: -1;
+    opacity: 0.5;
+    max-height: 80%;
+  }
 }
 
 @media(min-width:992px) 
@@ -117,6 +135,14 @@
     transition:0.4s;
     transform:translateX(-10px);
     opacity: 0;
+  }
+  .background {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    z-index: -1;
+    opacity: 0.6;
+    max-height: 80%;
   }
 }
 

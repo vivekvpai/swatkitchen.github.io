@@ -36,14 +36,19 @@
   font-weight: 550;
 }
 
-.content p
+.content
+{
+    background-color: rgb(192, 223, 200);;
+}
+
+.box p
 {
   font-family: 'Lobster', cursive;
   font-family: 'Merriweather', serif;
   font-size: 17px;
 }
 
-.content h5
+.box h5
 {
   font-family: "New Tegomin", serif;
   font-size: 25px;

@@ -1,0 +1,132 @@
+@media (max-width: 580px) {
+  .navbar-colour {
+    background-color: whitesmoke;
+  }
+  .background {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    z-index: -1;
+    opacity: 0.4;
+    height: 80%;
+    width: 120%;
+  }
+
+}
+
+.container
+{
+  border-left:3px double black;
+}
+
+.navbar-brand
+{
+  font-family: 'Amatic SC', cursive;
+  font-family: 'Lobster', cursive;
+  font-family: 'Merriweather', serif;
+}
+
+.hd1 {
+  font-family: "New Tegomin", serif;
+}
+
+.header #pa {
+  font-size: 20px;
+  font-family: "New Tegomin", serif;
+  font-weight: 550;
+}
+
+.content
+{
+    background-color: rgb(192, 223, 200);;
+}
+
+
+.card img
+{
+  height: 350px;
+}
+
+.pd
+{
+  padding: 5px 0px 5px 0px;
+}
+
+
+@media(min-width:768px) 
+{
+  .background {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    z-index: -1;
+    opacity: 0.5;
+    max-height: 80%;
+  }
+}
+
+@media(min-width:992px) 
+{
+  .background {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    z-index: -1;
+    opacity: 0.6;
+    max-height: 80%;
+  }
+}
+
+@media(min-width:1440px) 
+{
+  .background {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    z-index: -1;
+    opacity: 0.6;
+    max-height: 80%;
+    width: 45%;
+  }
+}
+
+.footer {
+  background-color: rgb(158, 216, 173);
+  margin: 50px 20px 0px 20px;
+  padding: 20px 0px 20px 0px;
+  text-decoration: none;
+}
+
+.list-unstyled li a
+{
+  text-decoration: none;
+}
+
+.fa {
+  padding: 10px;
+  font-size: 25px;
+  width: 50px;
+  text-align: center;
+}
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+.fa-instagram {
+  background: crimson;
+  color: white;
+}
+.fa-youtube {
+  background: red;
+  color: white;
+}
+
+.fas
+{
+  font-size: 30px;
+}
+
+
+
+
+

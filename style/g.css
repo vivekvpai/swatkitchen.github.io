@@ -14,6 +14,15 @@
 
 }
 
+.background {
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  z-index: -1;
+  opacity: 0.5;
+  height: 80%;
+}
+
 .container
 {
   border-left:3px double black;
